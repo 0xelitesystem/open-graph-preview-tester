@@ -21,6 +21,10 @@ Open `index.html` in any browser, or visit the GitHub Pages URL. Fill in the tit
 
 The image is loaded by your own browser directly from the URL you enter; the tool itself does not fetch or transmit anything. Aim for a title around 60 characters and a description around 150 to 200, since platforms truncate beyond that.
 
+## More
+
+Part of a catalog of single-file browser tools and plain-language references, all MIT licensed and dependency-free: [0xelitesystem.github.io](https://0xelitesystem.github.io/). Built by [elitesystem.ai](https://elitesystem.ai).
+
 ## License
 
 MIT. Copyright (c) 2026 0xelitesystem.
