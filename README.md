@@ -13,9 +13,30 @@ It runs entirely in the browser. Nothing is uploaded, stored, or tracked.
 - A recommendation to use a 1200 x 630 image
 - A copyable block of og and twitter meta tags
 
-## How to use
+## Use
 
 Open `index.html` in any browser, or visit the GitHub Pages URL. Fill in the title, description, image URL, and canonical URL, and the preview and the meta-tag block update as you type. If the image URL is public and reachable, the browser shows it in the card; otherwise the card shows the recommended dimensions. Copy the meta tags into the head of your page.
+
+## Why this exists
+
+Checking how a link card will look usually means publishing the page and pasting it into a social site or a third-party debugger. This is one HTML file that previews the card from the tags you type, in your browser, with no tracking. MIT licensed.
+
+## Privacy
+
+Everything runs in your browser and nothing is stored. The page itself makes no requests with your data. One network request does happen: when you type an og:image URL, your browser loads that image directly from the address you entered so it can show it in the card. That request goes to whoever hosts the image, not to this project. Leave the field empty and no request is made.
+
+## Run locally
+
+```
+git clone https://github.com/0xelitesystem/open-graph-preview-tester
+cd open-graph-preview-tester
+```
+
+Then open `index.html` in any browser. Or serve the folder with `python -m http.server` and visit http://localhost:8000.
+
+## Build
+
+No build step. The whole tool is one file, `index.html`, with its CSS and JavaScript inline.
 
 ## Notes
 
